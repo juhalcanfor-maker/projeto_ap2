@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 df = pd.read_excel("planilhao.xlsx", sheet_name="Sheet1")
 df.columns 
 # título do dashboard
-st.header("Meu Dashboard")
+st.header("Meu Dashboard 2.0")
 menu = st.tabs(["Tabela", "Barra", "vertical"])
 with menu[0]:
 # Expondo o df no dashboard
